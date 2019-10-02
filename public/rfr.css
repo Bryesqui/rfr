@@ -1,0 +1,151 @@
+h1 h2 p{
+  font-family: Roboto;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+}
+footer, .subHeader{
+  display: flex;
+  justify-content: center;
+  height: 20%;
+  width: 100%;
+  background-color: #274857;
+  color: white;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  background-color: #274857; 
+  color: white;
+}
+.title{
+  margin-left: 1em;
+}
+.hamburger{
+  margin-right: 1em;
+}
+
+.imgCarousel {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#slides{
+  object-fit:cover;
+}
+article {
+  width: 100%;
+  height: 100%;
+  background-color: #D9987C;
+}
+.work {
+  display:flex;
+}
+.workChild {
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+}
+.workTitle{
+  display:flex;
+  justify-content: center;
+}
+.icon{
+  margin-right: 0.5em;
+}
+.workR, .workO{
+  border-right-style: solid;
+  border-right-color: #EEE4E4;
+  border-right-width: medium;
+}
+.copyContainer{
+  display:flex;
+  flex-direction: column;
+}
+#copy{
+  width: 85%;
+  text-align: center;
+  color: white;
+  background-color: #274857;
+  padding:1em;
+}
+.copy{
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  color: white;
+  margin:;
+}
+p{ 
+  color: #274857;
+  margin:0;
+}
+button {
+  margin-top: 2em;
+  margin-bottom:2em;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.w3-animate-fading{
+  animation: fading 10s infinite;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: fading;
+}
+@keyframes fading{
+  0%{
+  opacity: 0;
+}
+50%{
+  opacity: 1;
+}
+100%{
+  opacity: 0;
+}
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
